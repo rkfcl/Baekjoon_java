@@ -11,7 +11,7 @@ public class Main {
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		int[] array = new int[N];
 		int total=0;
-		for (int i = 0; i < N; i++) {
+		for (int i = 0; i < array.length; i++) {
 			array[i] = Integer.parseInt(st.nextToken());
 
 		}
